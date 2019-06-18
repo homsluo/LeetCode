@@ -64,50 +64,13 @@ CMAKE_SOURCE_DIR = C:\GitHW\Yuqing_LC
 CMAKE_BINARY_DIR = C:\GitHW\Yuqing_LC\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/7.dir
-
-# All Build rule for target.
-CMakeFiles/7.dir/all:
-	$(MAKE) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/depend
-	$(MAKE) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 7"
-.PHONY : CMakeFiles/7.dir/all
-
-# Include target in all.
-all: CMakeFiles/7.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/7.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/7.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/7.dir/rule
-
-# Convenience name for target.
-7 : CMakeFiles/7.dir/rule
-
-.PHONY : 7
-
-# clean rule for target.
-CMakeFiles/7.dir/clean:
-	$(MAKE) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/clean
-.PHONY : CMakeFiles/7.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/7.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/Yuqing_LC.dir
 
 # All Build rule for target.
 CMakeFiles/Yuqing_LC.dir/all:
 	$(MAKE) -f CMakeFiles\Yuqing_LC.dir\build.make CMakeFiles/Yuqing_LC.dir/depend
 	$(MAKE) -f CMakeFiles\Yuqing_LC.dir\build.make CMakeFiles/Yuqing_LC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Yuqing_LC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Yuqing_LC"
 .PHONY : CMakeFiles/Yuqing_LC.dir/all
 
 # Include target in all.
@@ -138,76 +101,39 @@ clean: CMakeFiles/Yuqing_LC.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/5.dir
+# Target rules for target CMakeFiles/test.dir
 
 # All Build rule for target.
-CMakeFiles/5.dir/all:
-	$(MAKE) -f CMakeFiles\5.dir\build.make CMakeFiles/5.dir/depend
-	$(MAKE) -f CMakeFiles\5.dir\build.make CMakeFiles/5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target 5"
-.PHONY : CMakeFiles/5.dir/all
+CMakeFiles/test.dir/all:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/depend
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target test"
+.PHONY : CMakeFiles/test.dir/all
 
 # Include target in all.
-all: CMakeFiles/5.dir/all
+all: CMakeFiles/test.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles 4
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/5.dir/rule
-
-# Convenience name for target.
-5 : CMakeFiles/5.dir/rule
-
-.PHONY : 5
-
-# clean rule for target.
-CMakeFiles/5.dir/clean:
-	$(MAKE) -f CMakeFiles\5.dir\build.make CMakeFiles/5.dir/clean
-.PHONY : CMakeFiles/5.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/5.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/6.dir
-
-# All Build rule for target.
-CMakeFiles/6.dir/all:
-	$(MAKE) -f CMakeFiles\6.dir\build.make CMakeFiles/6.dir/depend
-	$(MAKE) -f CMakeFiles\6.dir\build.make CMakeFiles/6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target 6"
-.PHONY : CMakeFiles/6.dir/all
-
-# Include target in all.
-all: CMakeFiles/6.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/6.dir/rule: cmake_check_build_system
+CMakeFiles/test.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/6.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/6.dir/rule
+.PHONY : CMakeFiles/test.dir/rule
 
 # Convenience name for target.
-6 : CMakeFiles/6.dir/rule
+test: CMakeFiles/test.dir/rule
 
-.PHONY : 6
-
-# clean rule for target.
-CMakeFiles/6.dir/clean:
-	$(MAKE) -f CMakeFiles\6.dir\build.make CMakeFiles/6.dir/clean
-.PHONY : CMakeFiles/6.dir/clean
+.PHONY : test
 
 # clean rule for target.
-clean: CMakeFiles/6.dir/clean
+CMakeFiles/test.dir/clean:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test.dir/clean
 
 .PHONY : clean
 

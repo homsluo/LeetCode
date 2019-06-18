@@ -56,62 +56,32 @@ include CMakeFiles/5.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/5.dir/flags.make
 
-CMakeFiles/5.dir/5._Longest_Palindromic_Substring.cpp.obj: CMakeFiles/5.dir/flags.make
-CMakeFiles/5.dir/5._Longest_Palindromic_Substring.cpp.obj: ../5.\ Longest\ Palindromic\ Substring.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/5.dir/5._Longest_Palindromic_Substring.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\5.dir\5._Longest_Palindromic_Substring.cpp.obj -c "C:\GitHW\Yuqing_LC\5. Longest Palindromic Substring.cpp"
+CMakeFiles/5.dir/test.cpp.obj: CMakeFiles/5.dir/flags.make
+CMakeFiles/5.dir/test.cpp.obj: ../test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/5.dir/test.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\5.dir\test.cpp.obj -c C:\GitHW\Yuqing_LC\test.cpp
 
-CMakeFiles/5.dir/5._Longest_Palindromic_Substring.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5.dir/5._Longest_Palindromic_Substring.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\GitHW\Yuqing_LC\5. Longest Palindromic Substring.cpp" > CMakeFiles\5.dir\5._Longest_Palindromic_Substring.cpp.i
+CMakeFiles/5.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5.dir/test.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\GitHW\Yuqing_LC\test.cpp > CMakeFiles\5.dir\test.cpp.i
 
-CMakeFiles/5.dir/5._Longest_Palindromic_Substring.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5.dir/5._Longest_Palindromic_Substring.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\GitHW\Yuqing_LC\5. Longest Palindromic Substring.cpp" -o CMakeFiles\5.dir\5._Longest_Palindromic_Substring.cpp.s
-
-CMakeFiles/5.dir/26._Remove_Duplicates_from_Sorted_Array.cpp.obj: CMakeFiles/5.dir/flags.make
-CMakeFiles/5.dir/26._Remove_Duplicates_from_Sorted_Array.cpp.obj: ../26.\ Remove\ Duplicates\ from\ Sorted\ Array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/5.dir/26._Remove_Duplicates_from_Sorted_Array.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\5.dir\26._Remove_Duplicates_from_Sorted_Array.cpp.obj -c "C:\GitHW\Yuqing_LC\26. Remove Duplicates from Sorted Array.cpp"
-
-CMakeFiles/5.dir/26._Remove_Duplicates_from_Sorted_Array.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5.dir/26._Remove_Duplicates_from_Sorted_Array.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\GitHW\Yuqing_LC\26. Remove Duplicates from Sorted Array.cpp" > CMakeFiles\5.dir\26._Remove_Duplicates_from_Sorted_Array.cpp.i
-
-CMakeFiles/5.dir/26._Remove_Duplicates_from_Sorted_Array.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5.dir/26._Remove_Duplicates_from_Sorted_Array.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\GitHW\Yuqing_LC\26. Remove Duplicates from Sorted Array.cpp" -o CMakeFiles\5.dir\26._Remove_Duplicates_from_Sorted_Array.cpp.s
-
-CMakeFiles/5.dir/27._Remove_Element.cpp.obj: CMakeFiles/5.dir/flags.make
-CMakeFiles/5.dir/27._Remove_Element.cpp.obj: ../27.\ Remove\ Element.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/5.dir/27._Remove_Element.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\5.dir\27._Remove_Element.cpp.obj -c "C:\GitHW\Yuqing_LC\27. Remove Element.cpp"
-
-CMakeFiles/5.dir/27._Remove_Element.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/5.dir/27._Remove_Element.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\GitHW\Yuqing_LC\27. Remove Element.cpp" > CMakeFiles\5.dir\27._Remove_Element.cpp.i
-
-CMakeFiles/5.dir/27._Remove_Element.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5.dir/27._Remove_Element.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\GitHW\Yuqing_LC\27. Remove Element.cpp" -o CMakeFiles\5.dir\27._Remove_Element.cpp.s
+CMakeFiles/5.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/5.dir/test.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\GitHW\Yuqing_LC\test.cpp -o CMakeFiles\5.dir\test.cpp.s
 
 # Object files for target 5
 5_OBJECTS = \
-"CMakeFiles/5.dir/5._Longest_Palindromic_Substring.cpp.obj" \
-"CMakeFiles/5.dir/26._Remove_Duplicates_from_Sorted_Array.cpp.obj" \
-"CMakeFiles/5.dir/27._Remove_Element.cpp.obj"
+"CMakeFiles/5.dir/test.cpp.obj"
 
 # External object files for target 5
 5_EXTERNAL_OBJECTS =
 
-5.exe: CMakeFiles/5.dir/5._Longest_Palindromic_Substring.cpp.obj
-5.exe: CMakeFiles/5.dir/26._Remove_Duplicates_from_Sorted_Array.cpp.obj
-5.exe: CMakeFiles/5.dir/27._Remove_Element.cpp.obj
+5.exe: CMakeFiles/5.dir/test.cpp.obj
 5.exe: CMakeFiles/5.dir/build.make
 5.exe: CMakeFiles/5.dir/linklibs.rsp
 5.exe: CMakeFiles/5.dir/objects1.rsp
 5.exe: CMakeFiles/5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable 5.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\GitHW\Yuqing_LC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 5.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\5.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

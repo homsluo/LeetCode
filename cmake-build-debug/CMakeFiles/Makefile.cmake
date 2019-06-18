@@ -51,8 +51,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/7.dir/DependInfo.cmake"
   "CMakeFiles/Yuqing_LC.dir/DependInfo.cmake"
-  "CMakeFiles/5.dir/DependInfo.cmake"
-  "CMakeFiles/6.dir/DependInfo.cmake"
+  "CMakeFiles/test.dir/DependInfo.cmake"
   )

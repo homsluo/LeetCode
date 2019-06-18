@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = C:\GitHW\Yuqing_LC\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 7
-
-# Build rule for target.
-7 : cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 7
-.PHONY : 7
-
-# fast build rule for target.
-7/fast:
-	$(MAKE) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/build
-.PHONY : 7/fast
-
-#=============================================================================
 # Target rules for targets named Yuqing_LC
 
 # Build rule for target.
@@ -136,165 +123,17 @@ Yuqing_LC/fast:
 .PHONY : Yuqing_LC/fast
 
 #=============================================================================
-# Target rules for targets named 5
+# Target rules for targets named test
 
 # Build rule for target.
-5 : cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 5
-.PHONY : 5
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 test
+.PHONY : test
 
 # fast build rule for target.
-5/fast:
-	$(MAKE) -f CMakeFiles\5.dir\build.make CMakeFiles/5.dir/build
-.PHONY : 5/fast
-
-#=============================================================================
-# Target rules for targets named 6
-
-# Build rule for target.
-6 : cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 6
-.PHONY : 6
-
-# fast build rule for target.
-6/fast:
-	$(MAKE) -f CMakeFiles\6.dir\build.make CMakeFiles/6.dir/build
-.PHONY : 6/fast
-
-26._Remove_Duplicates_from_Sorted_Array.obj: 26._Remove_Duplicates_from_Sorted_Array.cpp.obj
-
-.PHONY : 26._Remove_Duplicates_from_Sorted_Array.obj
-
-# target to build an object file
-26._Remove_Duplicates_from_Sorted_Array.cpp.obj:
-	$(MAKE) -f CMakeFiles\5.dir\build.make CMakeFiles/5.dir/26._Remove_Duplicates_from_Sorted_Array.cpp.obj
-.PHONY : 26._Remove_Duplicates_from_Sorted_Array.cpp.obj
-
-26._Remove_Duplicates_from_Sorted_Array.i: 26._Remove_Duplicates_from_Sorted_Array.cpp.i
-
-.PHONY : 26._Remove_Duplicates_from_Sorted_Array.i
-
-# target to preprocess a source file
-26._Remove_Duplicates_from_Sorted_Array.cpp.i:
-	$(MAKE) -f CMakeFiles\5.dir\build.make CMakeFiles/5.dir/26._Remove_Duplicates_from_Sorted_Array.cpp.i
-.PHONY : 26._Remove_Duplicates_from_Sorted_Array.cpp.i
-
-26._Remove_Duplicates_from_Sorted_Array.s: 26._Remove_Duplicates_from_Sorted_Array.cpp.s
-
-.PHONY : 26._Remove_Duplicates_from_Sorted_Array.s
-
-# target to generate assembly for a file
-26._Remove_Duplicates_from_Sorted_Array.cpp.s:
-	$(MAKE) -f CMakeFiles\5.dir\build.make CMakeFiles/5.dir/26._Remove_Duplicates_from_Sorted_Array.cpp.s
-.PHONY : 26._Remove_Duplicates_from_Sorted_Array.cpp.s
-
-27._Remove_Element.obj: 27._Remove_Element.cpp.obj
-
-.PHONY : 27._Remove_Element.obj
-
-# target to build an object file
-27._Remove_Element.cpp.obj:
-	$(MAKE) -f CMakeFiles\5.dir\build.make CMakeFiles/5.dir/27._Remove_Element.cpp.obj
-.PHONY : 27._Remove_Element.cpp.obj
-
-27._Remove_Element.i: 27._Remove_Element.cpp.i
-
-.PHONY : 27._Remove_Element.i
-
-# target to preprocess a source file
-27._Remove_Element.cpp.i:
-	$(MAKE) -f CMakeFiles\5.dir\build.make CMakeFiles/5.dir/27._Remove_Element.cpp.i
-.PHONY : 27._Remove_Element.cpp.i
-
-27._Remove_Element.s: 27._Remove_Element.cpp.s
-
-.PHONY : 27._Remove_Element.s
-
-# target to generate assembly for a file
-27._Remove_Element.cpp.s:
-	$(MAKE) -f CMakeFiles\5.dir\build.make CMakeFiles/5.dir/27._Remove_Element.cpp.s
-.PHONY : 27._Remove_Element.cpp.s
-
-5._Longest_Palindromic_Substring.obj: 5._Longest_Palindromic_Substring.cpp.obj
-
-.PHONY : 5._Longest_Palindromic_Substring.obj
-
-# target to build an object file
-5._Longest_Palindromic_Substring.cpp.obj:
-	$(MAKE) -f CMakeFiles\5.dir\build.make CMakeFiles/5.dir/5._Longest_Palindromic_Substring.cpp.obj
-.PHONY : 5._Longest_Palindromic_Substring.cpp.obj
-
-5._Longest_Palindromic_Substring.i: 5._Longest_Palindromic_Substring.cpp.i
-
-.PHONY : 5._Longest_Palindromic_Substring.i
-
-# target to preprocess a source file
-5._Longest_Palindromic_Substring.cpp.i:
-	$(MAKE) -f CMakeFiles\5.dir\build.make CMakeFiles/5.dir/5._Longest_Palindromic_Substring.cpp.i
-.PHONY : 5._Longest_Palindromic_Substring.cpp.i
-
-5._Longest_Palindromic_Substring.s: 5._Longest_Palindromic_Substring.cpp.s
-
-.PHONY : 5._Longest_Palindromic_Substring.s
-
-# target to generate assembly for a file
-5._Longest_Palindromic_Substring.cpp.s:
-	$(MAKE) -f CMakeFiles\5.dir\build.make CMakeFiles/5.dir/5._Longest_Palindromic_Substring.cpp.s
-.PHONY : 5._Longest_Palindromic_Substring.cpp.s
-
-6._ZigZag_Conversion.obj: 6._ZigZag_Conversion.cpp.obj
-
-.PHONY : 6._ZigZag_Conversion.obj
-
-# target to build an object file
-6._ZigZag_Conversion.cpp.obj:
-	$(MAKE) -f CMakeFiles\6.dir\build.make CMakeFiles/6.dir/6._ZigZag_Conversion.cpp.obj
-.PHONY : 6._ZigZag_Conversion.cpp.obj
-
-6._ZigZag_Conversion.i: 6._ZigZag_Conversion.cpp.i
-
-.PHONY : 6._ZigZag_Conversion.i
-
-# target to preprocess a source file
-6._ZigZag_Conversion.cpp.i:
-	$(MAKE) -f CMakeFiles\6.dir\build.make CMakeFiles/6.dir/6._ZigZag_Conversion.cpp.i
-.PHONY : 6._ZigZag_Conversion.cpp.i
-
-6._ZigZag_Conversion.s: 6._ZigZag_Conversion.cpp.s
-
-.PHONY : 6._ZigZag_Conversion.s
-
-# target to generate assembly for a file
-6._ZigZag_Conversion.cpp.s:
-	$(MAKE) -f CMakeFiles\6.dir\build.make CMakeFiles/6.dir/6._ZigZag_Conversion.cpp.s
-.PHONY : 6._ZigZag_Conversion.cpp.s
-
-7._Reverse_Integer.obj: 7._Reverse_Integer.cpp.obj
-
-.PHONY : 7._Reverse_Integer.obj
-
-# target to build an object file
-7._Reverse_Integer.cpp.obj:
-	$(MAKE) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/7._Reverse_Integer.cpp.obj
-.PHONY : 7._Reverse_Integer.cpp.obj
-
-7._Reverse_Integer.i: 7._Reverse_Integer.cpp.i
-
-.PHONY : 7._Reverse_Integer.i
-
-# target to preprocess a source file
-7._Reverse_Integer.cpp.i:
-	$(MAKE) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/7._Reverse_Integer.cpp.i
-.PHONY : 7._Reverse_Integer.cpp.i
-
-7._Reverse_Integer.s: 7._Reverse_Integer.cpp.s
-
-.PHONY : 7._Reverse_Integer.s
-
-# target to generate assembly for a file
-7._Reverse_Integer.cpp.s:
-	$(MAKE) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/7._Reverse_Integer.cpp.s
-.PHONY : 7._Reverse_Integer.cpp.s
+test/fast:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 main.obj: main.cpp.obj
 
@@ -323,36 +162,49 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Yuqing_LC.dir\build.make CMakeFiles/Yuqing_LC.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test.obj: test.cpp.obj
+
+.PHONY : test.obj
+
+# target to build an object file
+test.cpp.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.obj
+.PHONY : test.cpp.obj
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... 7
 	@echo ... Yuqing_LC
-	@echo ... edit_cache
-	@echo ... 5
-	@echo ... 6
 	@echo ... rebuild_cache
-	@echo ... 26._Remove_Duplicates_from_Sorted_Array.obj
-	@echo ... 26._Remove_Duplicates_from_Sorted_Array.i
-	@echo ... 26._Remove_Duplicates_from_Sorted_Array.s
-	@echo ... 27._Remove_Element.obj
-	@echo ... 27._Remove_Element.i
-	@echo ... 27._Remove_Element.s
-	@echo ... 5._Longest_Palindromic_Substring.obj
-	@echo ... 5._Longest_Palindromic_Substring.i
-	@echo ... 5._Longest_Palindromic_Substring.s
-	@echo ... 6._ZigZag_Conversion.obj
-	@echo ... 6._ZigZag_Conversion.i
-	@echo ... 6._ZigZag_Conversion.s
-	@echo ... 7._Reverse_Integer.obj
-	@echo ... 7._Reverse_Integer.i
-	@echo ... 7._Reverse_Integer.s
+	@echo ... test
+	@echo ... edit_cache
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 
