@@ -1,10 +1,7 @@
-#include <iostream>
-#include <vector>
-#include <map>
-#include <algorithm>
-using namespace std;
-
-int thirdMax(vector<int>& nums) {
+//
+// Created by homsl on 2019/6/23.
+//
+int thirdMax(vector<int>& nums) {       // Brute Force
     int first, second, third;
     bool fe, se, te;
     fe = se = te = false;
@@ -59,16 +56,4 @@ int thirdMax(vector<int>& nums) {
     if(te)
         return third;
     return first;
-}
-
-int main(){
-    vector<int> test;
-    test.push_back(5);
-    test.push_back(2);
-    test.push_back(4);
-    test.push_back(1);
-    test.push_back(3);
-    test.push_back(6);
-    test.push_back(0);
-    cout << thirdMax(test);
 }

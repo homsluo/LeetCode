@@ -1,12 +1,6 @@
 //
-// Created by homsl on 2019/6/18.
+// Created by homsl on 2019/6/28.
 //
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <algorithm>
-using namespace std;
-
 vector<vector<int>> fourSum(vector<int>& nums, int target) {
     vector<vector<int>> ans;
     if(nums.size() < 4)
@@ -44,10 +38,3 @@ vector<vector<int>> fourSum(vector<int>& nums, int target) {
     }
     return ans;
 }
-
-int main(){
-    vector<int> nums = {-4,-3,-2,-1,0,0,1,2,3,4};
-    vector<vector<int>> ans;
-    ans = fourSum(nums,0);
-}
-
