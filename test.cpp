@@ -5,20 +5,12 @@
 #include <vector>
 #include <unordered_map>
 #include <algorithm>
+#include <ctime>
 using namespace std;
-int uniquePaths(int m, int n) {
-    int arr[m][n] = {0};
-    for(int i = 0; i < m; i++){
-        for(int j = 0; j < n; j++){
-            if((i == 0) || (j == 0))
-                arr[i][j] = 1;
-            else
-                arr[i][j] = arr[i-1][j] + arr[i][j-1];
-        }
-    }
-    return arr[m-1][n-1];
-}
+
 int main(){
-    cout << uniquePaths(3,2);
+    vector<int> nums = {0,1,2,4,5};
+    string s = to_string(nums[0])+"->"+to_string(nums[3]);
+    cout << s;
 }
 

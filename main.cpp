@@ -27,11 +27,5 @@ vector<vector<int> > combinationSum(vector<int> &candidates, int target) {
 
 int main(){
     vector<int> test = {2,3,6,7};
-    vector<vector<int>> ans = combinationSum(test,7);
-    for(vector<int> v:ans){
-        for(int m:v){
-            cout << m << ' ';
-        }
-        cout << endl;
-    }
+    cout << *(--test.end());
 }
