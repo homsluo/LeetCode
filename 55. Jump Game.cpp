@@ -1,6 +1,7 @@
 //
 // Created by homsl on 2019/7/6.
-//
+// [2,3,1,1,4]
+// [3,2,1,0,4]
 bool canJump(vector<int>& nums) {
     int n = nums.size();
     int maxreach = 0;

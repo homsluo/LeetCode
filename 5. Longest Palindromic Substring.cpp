@@ -52,3 +52,24 @@ int main(){
     for(auto v:ans)
         cout << v;
 }
+
+//--------------------------------------------------------------------------------
+string longestPalindrome(string s) {
+    if(s.empty())
+        return "";
+    int max = 0;
+    string res;
+    bool dp[s.size()][s.size()];
+    for(int j = 0; j < s.size(); j++){
+        for(int i = 0; i <= j; i++){
+            dp[i][j] = s[i] == s[j] && (j - i <= 2 || dp[i+1][j-1]);
+            if(dp[i][j]){
+                if(j-i+1 > max){
+                    max = j-i+1;
+                    res = s.substr(i, j-i+1);
+                }
+            }
+        }
+    }
+    return res;
+}
