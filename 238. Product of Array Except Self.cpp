@@ -21,3 +21,19 @@ vector<int> productExceptSelf(vector<int>& nums) {
     return res;
 }
 
+// --------------------------------------------------------------------------------
+// Time:O(n), constant space, without division
+vector<int> productExceptSelf(vector<int>& nums) {
+    vector<int> res(nums.size(), 1);
+    int prod = 1;
+    for(int i = 1; i < nums.size(); i++){
+        prod *= nums[i-1];
+        res[i] = prod;
+    }
+    prod = 1;
+    for(int j = nums.size()-2; j >= 0; j--){
+        prod *= nums[j+1];
+        res[j] *= prod;
+    }
+    return res;
+}

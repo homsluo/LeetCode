@@ -51,3 +51,28 @@ void sortColors(vector<int>& nums) {
             nums[++k] = 2;
     }
 }
+
+// QuickSort O(n)
+void sortColors(vector<int>& nums) {
+    // QuickSort
+    int first = 0;
+    int last = nums.size()-1;
+    while(first < last && nums[first] == 0)
+        first++;
+    while(last > first && nums[last] == 2)
+        last--;
+    int index = first;
+    while(index <= last){
+        if(nums[index] == 2){
+            swap(nums[index], nums[last]);
+            last--;
+        }
+        else if(nums[index] == 0){
+            swap(nums[index], nums[first]);
+            first++;
+            index++;
+        }
+        else
+            index++;
+    }
+}
